@@ -1,0 +1,37 @@
+.Navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 1180px;
+    height: 120px;
+    margin: 0 auto;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 120px;
+    border-color: brown;
+    border-radius: 25px;
+    border-style: ridge;
+    border-width: medium;
+    margin-top: 10px;
+}
+
+.Navigation img {
+    height: 100px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.Navigation img:hover {
+    transform: scale(1.05);
+    transition: -webkit-transform 0.3s, -moz-transform 0.3s, -o-transform 0.3s, -ms-transform 0.3s, transform 0.3s;
+}
+
+.Item:hover {
+    transform: scale(1.05);
+    transition: -webkit-transform 0.3s, -moz-transform 0.3s, -o-transform 0.3s, -ms-transform 0.3s, transform 0.3s;
+}
+
+.Item a {
+    color: black;
+    text-decoration: none;
+}

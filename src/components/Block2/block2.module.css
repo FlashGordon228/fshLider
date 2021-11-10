@@ -1,0 +1,70 @@
+.Test {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  background-image: linear-gradient(rgba(255,255,255,0.9), rgba(255,255,255,0.9)), url('../../Images/background2.jpeg');
+  background-size: cover;
+  margin-top: 10px;
+  width: 1440px;
+  height: 560px;
+}
+
+.Test h1 {
+  margin: 0 auto;
+  margin-top: 30px;
+  line-height: 56px;
+  font-size: 56px;
+}
+
+.Rows {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin: auto;
+  width: 1180px;
+  margin-top: 40px;
+}
+
+.Row {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 270px;
+}
+
+.Item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.ItemImage {
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  background-color: #fff;
+  border: 2px solid #fbcb2a;
+  position: relative;
+  transition: -webkit-transform 0.3s, -moz-transform 0.3s, -o-transform 0.3s, -ms-transform 0.3s, transform 0.3s;
+}
+
+span {
+  line-height: 46px;
+  margin-left: 10px;
+}
+
+.ItemImage img {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 70%;
+  height: 70%;
+  margin: auto;
+}
+
+.Kid img {
+  height: 400px;
+}
