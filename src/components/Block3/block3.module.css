@@ -58,6 +58,7 @@
 
 span {
   margin-left: 10px;
+  line-height: 25px;
 }
 
 
@@ -88,11 +89,10 @@ span {
 }
 
 .columns{
-  display: flex;
-  flex-direction: row;
+  columns: 2;
 }
 
-.Row{
-  display: flex;
-  flex-direction: column;
+.Item{
+  margin: auto;
+  height: 95px;
 }

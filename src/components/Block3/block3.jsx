@@ -19,6 +19,16 @@ const Block3 = () => {
 }
 
 const Footbal = () => {
+
+  let messages=[
+    {id: 1, message: 'Профессиональные тренеры', img: coach1},
+    {id: 2, message:'Индивидуальный подход к каждому ребенку', img:unic},
+    {id: 3, message:'Собственная методика тренировок', img:program},
+    {id: 4, message:'Современный инвентарь и экипировка', img:player}
+  ]
+
+  let messagesElements = messages.map(m => <Item message={m.message} img = {m.img} />);
+
   return (
     <div className={c.Footbal}>
       <h1>Футбол, который нравится детям!</h1>
@@ -27,16 +37,9 @@ const Footbal = () => {
         Он помогает развить выносливость и координацию движений.
         При регулярных тренировках происходит укрепление костной структуры и мускулатуры!</h2>
       <div className={c.columns}>
-        <div className={c.Row}>
-          <Item message='Профессиональные тренеры' img={coach1} />
-          <Item message='Индивидуальный подход к каждому ребенку' img={unic} />
-        </div>
-        <div className={c.Row}>
-          <Item message='Собственная методика тренировок' img={program} />
-          <Item message='Современный инвентарь и экипировка' img={player} />
-        </div>
+          {messagesElements}
       </div>
-      <a href='/Main' className={c.Link}>Запишись на бесплатное занятие</a>
+      <a href='/' className={c.Link}>Запишись на бесплатное занятие</a>
     </div>
   )
 }
@@ -51,7 +54,5 @@ const Item = (props) => {
     </div>
   )
 }
-
-
 
 export default Block3;

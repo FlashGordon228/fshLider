@@ -10,7 +10,7 @@ const Block1 = () => {
       </div>
       <div className={c.Row}>
         <div className={c.Name}>
-          <h1>Детская футбольная школа "Лидер"</h1>
+          <h1>Детская футбольная школа "ПСЖ"</h1>
           <h2>Набор детей c 3-х лет (мальчики и девочки)</h2>
         </div>
         <div className={c.Register}>

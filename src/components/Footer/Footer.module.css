@@ -1,0 +1,19 @@
+.modalwrapper {
+    position: fixed;
+    display: flex;
+    bottom:110px;
+    left: -8px;
+    width: 100vw;
+    height: 1vh;
+}
+
+.Footer {
+    top: 100px;
+    width: 1400px;
+    height: 80px;
+    background-color: grey;
+    text-align: center;
+    font-size: x-large;
+    padding: 20px;
+    margin: auto;
+}

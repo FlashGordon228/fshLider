@@ -10,7 +10,7 @@ import communication from '../../Images/communication.png';
 const Block2 = () => {
   return (
     <div className={c.Test}>
-      <h1>Что Ваш ребенок получит в "Лидере"?</h1>
+      <h1>Что Ваш ребенок получит в "ПСЖ"?</h1>
       <Rows />
     </div>
   )

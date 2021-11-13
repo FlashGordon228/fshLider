@@ -9,20 +9,25 @@ import Camps from './components/Camps/Camps'
 import News from './components/News/News'
 import Contacts from './components/Contacts/Contacts'
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import Footer from './components/Footer/Footer';
 
 function App() {
+
     return (
         <BrowserRouter>
             <div className="App" >
                 <Header />
-                <Routes>
-                    <Route path='/' element={<Main />} />
-                    <Route path='/about' element={<About />} />
-                    <Route path='/adresses' element={<Adresses />} />
-                    <Route path='/camps' element={<Camps />} />
-                    <Route path='/news' element={<News />} />
-                    <Route path='/contacts' element={<Contacts />} />
-                </Routes>
+                <div className="Content">
+                    <Routes>
+                        <Route path='/' element={<Main />} />
+                        <Route path='/about' element={<About />} />
+                        <Route path='/adresses' element={<Adresses />} />
+                        <Route path='/camps' element={<Camps />} />
+                        <Route path='/news' element={<News />} />
+                        <Route path='/contacts' element={<Contacts />} />
+                    </Routes>
+                </div>
+                <Footer />
             </div>
         </BrowserRouter>
     );
